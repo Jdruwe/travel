@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: travel-api-gateway
+  cloud:
+    config:
+      label: develop
+      uri: http://localhost:8888

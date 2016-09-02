@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/travel.iml" filepath="$PROJECT_DIR$/travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-api-gateway/travel-api-gateway.iml" filepath="$PROJECT_DIR$/travel-api-gateway/travel-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-attraction-service/travel-attraction-service.iml" filepath="$PROJECT_DIR$/travel-attraction-service/travel-attraction-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-auth-server/travel-auth-server.iml" filepath="$PROJECT_DIR$/travel-auth-server/travel-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-config-server/travel-config-server.iml" filepath="$PROJECT_DIR$/travel-config-server/travel-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-country-service/travel-country-service.iml" filepath="$PROJECT_DIR$/travel-country-service/travel-country-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-favorite-service/travel-favorite-service.iml" filepath="$PROJECT_DIR$/travel-favorite-service/travel-favorite-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/travel-service-registry/travel-service-registry.iml" filepath="$PROJECT_DIR$/travel-service-registry/travel-service-registry.iml" />
+    </modules>
+  </component>
+</project>

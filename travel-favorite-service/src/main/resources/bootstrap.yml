@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: travel-favorite-service
+  cloud:
+    config:
+      label: develop
+      uri: http://localhost:8888

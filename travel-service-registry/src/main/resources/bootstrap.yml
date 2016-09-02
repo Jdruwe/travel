@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: travel-service-registry
+  cloud:
+    config:
+      label: develop
+      uri: http://localhost:8888

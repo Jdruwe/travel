@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="travel-api-gateway" />
+        <module name="travel-attraction-service" />
+        <module name="travel-auth-server" />
+        <module name="travel-config-server" />
+        <module name="travel-country-service" />
+        <module name="travel-favorite-service" />
+        <module name="travel-service-registry" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="travel" target="1.6" />
+      <module name="travel-api-gateway" target="1.8" />
+      <module name="travel-attraction-service" target="1.8" />
+      <module name="travel-auth-server" target="1.8" />
+      <module name="travel-config-server" target="1.8" />
+      <module name="travel-config-server (1)" target="1.8" />
+      <module name="travel-country-service" target="1.8" />
+      <module name="travel-favorite-service" target="1.8" />
+      <module name="travel-service-registry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
