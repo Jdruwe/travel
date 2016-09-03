@@ -32,7 +32,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="travel" target="1.6" />
+      <module name="travel" target="1.8" />
       <module name="travel-api-gateway" target="1.8" />
       <module name="travel-attraction-service" target="1.8" />
       <module name="travel-auth-server" target="1.8" />
