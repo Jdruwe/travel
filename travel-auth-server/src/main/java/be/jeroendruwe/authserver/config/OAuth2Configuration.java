@@ -41,7 +41,7 @@ public class OAuth2Configuration extends AuthorizationServerConfigurerAdapter {
                 .withClient("travel-client")
                 .secret("travel-secret")
                 .authorities(OAuth2Authority.ROLE_ADMIN.name(), OAuth2Authority.ROLE_USER.name())
-                .authorizedGrantTypes("implicit", "authorization_code", "refresh_token", "password")
+                .authorizedGrantTypes("refresh_token", "password")
                 .accessTokenValiditySeconds(ONE_DAY)
                 .scopes(OAuth2Scope.COUNTRY_READ.name(), OAuth2Scope.ATTRACTION_READ.name(), OAuth2Scope.FAVORITE_READ.name())
                 .autoApprove(true);
